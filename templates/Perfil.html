@@ -1,0 +1,56 @@
+{% extends "layout.html" %}
+
+{% block title %}
+<link rel="stylesheet" href="{{url_for('static', filename='css/mio.css')}}" media="screen">
+ <link rel="stylesheet" href="../static/css/Perfil.css">
+<title>Técnicas de Simulación</title>
+{% endblock %}
+
+{% block content %}
+
+<body>
+    
+    <div class = "about-wrapper">
+      <div class = "about-left">
+        <div class = "about-left-content">
+          <div>
+            <div class = "shadow">
+              <div class = "about-img">
+                <img src = "../static/image/perfill.jpg" alt = "about image">
+              </div>
+            </div>
+
+            <h2>Eber<br>Alarcon Cedeño</h2>
+            <!-- <h3>Estudiante de TIC</h3> -->
+          </div>
+
+          <ul class = "icons">
+            
+            <li> <a class = "fab fa-facebook-f"  href="https://www.facebook.com/jose.macias.7906932/" >  </a></li>
+            <li><i class = "fab fa-twitter"></i></li>
+            <li><i class = "fab fa-linkedin"></i></li>
+            <li><i class = "fab fa-instagram"></i></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class = "about-right">
+        <h1>MI PERFIL<span>!</span></h1>
+        <h2>Proyecto Final de la Asignatura Modelamiento y Simulación</h2>
+        <div class = "about-btns">
+          <button type = "button" class = "btn btn-white" ><a   href="https://github.com/ReyesMacias15" >Proyectos</a> </button>
+        </div>
+
+        <div class = "about-para">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, aspernatur possimus ullam quaerat, laboriosam ex voluptate aliquid laborum, obcaecati ratione accusamus! Ea nisi modi dolor nam numquam? Temporibus, molestias amet.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus iure tempora alias laudantium sapiente impedit!</p>
+        </div>
+      </div>
+    </div>
+
+
+  </body>
+
+
+{% endblock %}
+<br><br><br><br>
